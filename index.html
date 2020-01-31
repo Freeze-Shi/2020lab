@@ -3,31 +3,24 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
     $( "#menu" ).menu();
   } );
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
   </script>
+
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
    <title>Freeze🌟负离子</title>
 </head>
 
 <body>
-    <!-- empty first child used for corners -->
 
-    <style type="text/css">
-        body{
-    background-image: url('images/background.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-
-}
-    </style>
+    <div class="milk">牛<br>乳</div>
 
     <div class='item item-sm'></div>
     <div class='item item-lg'></div>
@@ -56,7 +49,7 @@
   
 <ul id="menu">
  <div id="borderneeded" class="ui-state-disabled">PROJECTS</div></li>
-  <div id="borderneeded"><a href="https://github.com/belleprnte/Core-Interaction-2020">STUDIO</div>
+  <div id="borderneeded">STUDIO</div>
   <li ><div id="borderneeded">CLASSMATES</div>
     <ul>
       <div class="ui-state-disabled"><div id="borderneeded"><a href="https://jacoh003.github.io/s20-core-interaction/">HANA</div></a></div>
@@ -78,13 +71,24 @@
   </li>
 
 </ul>
- 
 
-
+ <div id="draggable">
+  <p>你好呀 (｡ò ∀ ó｡）This is Freeze, a Communication Design BFA student at Parsons the New School.</p>
+</div>
 
 
 
     </div>
+     <style type="text/css">
+        body{
+    background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+    </style>
   <script src="assets/mycode.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

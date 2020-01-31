@@ -1,3 +1,12 @@
+.milk{
+	color:black;
+	font-size:30vw ;
+	font-family:sans-serif;
+	font-style: bolder;
+	position: fixed;
+	line-height: 30vw;
+	right: -100px;
+}
 
 #menu {width: 25%;
 	
@@ -5,19 +14,44 @@ color: #black;
 font-family: arial;
 font-size: 3vw;
 padding: .3vw;
-background: none;
 
 }
+
+
 
 #borderneeded
 {margin: 1vw;
 	border: solid 2px black;
-text-align: center;}
+text-align: center;
+transition: all 0.3s ease-in-out;}
 
+#borderneeded:hover{
+background-color: #1924f2;
+}
+
+#draggable{
+	background-color: #1924f2;
+	color: white;
+	border: solid 2px black;
+	text-align: center;
+	font-size:2vw;
+	font-family: arial;
+	line-height: 3vw;
+	width: 30vw;
+	position: absolute;
+	transition: all 0.1s ease-in-out;
+
+}
+#draggable:hover{
+	background-color: white;
+	color:#1924f2;
+	font-style: bold;
+
+
+}
 
 a{text-decoration:none;
 color:black;}
-
 
 
 .item {
