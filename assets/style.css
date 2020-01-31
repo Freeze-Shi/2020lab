@@ -1,0 +1,44 @@
+
+#menu {width: 25%;
+	
+color: #black;
+font-family: arial;
+font-size: 3vw;
+padding: .3vw;
+
+
+}
+
+#borderneeded
+{margin: 1vw;
+	border: solid 2px black;
+text-align: center;}
+
+
+a{text-decoration:none;
+color:black;}
+
+
+
+.item {
+	display: inline-block;
+	background-color: black;
+	height: 60px;
+
+}
+
+.item-sm {
+	width: 2px;
+	margin-right: .2px;
+}
+
+.item-md {
+	width: 3px;
+	margin-right: .2px;
+}
+
+.item-lg {
+	width: 5px;
+	margin-right: .2px;
+}
+
