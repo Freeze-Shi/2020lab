@@ -1,0 +1,521 @@
+body {
+  font-family: arial;
+ 
+  position: fixed;
+
+  
+}
+a{
+	text-decoration: none;
+}
+
+#draggable:hover{
+	z-index: +1000000;
+}
+
+#draggable2:hover{
+	z-index: +1000000;
+}
+#draggable3:hover{
+	z-index: +1000000;
+}
+#draggable4:hover{
+	z-index: +1000000;
+}
+#draggable5:hover{
+	z-index: +1000000;
+}
+#draggable6:hover{
+	z-index: +1000000;
+}
+#draggable7:hover{
+	z-index: +1000000;
+}
+#draggable8:hover{
+	z-index: +1000000;
+}
+#draggable9:hover{
+	z-index: +1000000;
+}
+#draggable10:hover{
+	z-index: +1000000;
+}
+.background{
+	font-size: 150px;
+	position:fixed;
+	z-index: -100000;
+	line-height: 130px;
+	margin: 0;
+}
+/*card one*/
+	.card1{
+		background-color:white;
+		width: 30vw;
+		height: 20vw;
+		top: 5vw;
+		border:solid 10px black;
+		font-size: 2vw;
+		margin: 3vw;
+		padding: 10px;
+		text-align:center;
+		line-height:4vw;
+		position: fixed;
+		transition:all .5s ease-in-out;
+	}
+	.card1:hover{
+		background-color: black;
+	}
+
+	.redpill{
+		color:balck;
+		border:solid 3px black;
+		font-weight: bolder;
+		font-style: italic;
+		font-size:150%;
+	}
+
+	.pill:hover{
+		background-color:white;
+	}
+	.pill{
+		background-color:red;
+		font-size: 10px;
+		padding: 6px 10px;
+		color: red;
+		width: 7vw;
+		height:2vw;
+		border-radius: 50px;
+		align-items: center;
+	}
+
+	.prompt{background-color: white;
+		font-size: 13px;
+	position: absolute;
+	top:7px;
+	width: 30%;
+	height: 20;
+	text-align:center;
+	}
+
+	.yournormallife{
+		font-size:120%;
+	}
+
+/*card two*/
+
+	.card2{background-color:white;
+			width: 30vw;
+			height: 20vw;
+			position: fixed;
+			top: 40vw;
+			left: 10vw;
+			border:solid 10px black;
+			margin: 3vw;
+			padding: 2vw;
+			text-align: center;
+			
+	}
+
+	.update{
+		color: black;
+		text-align: center;
+		font-size: 3vw;
+	}
+
+	.content{
+		color: black;
+		text-align: center;
+		font-size: 2vw;
+		word-spacing: .2vw;
+		line-height: 5vw;
+	}
+
+	.remind{
+		color: blue;
+		line-height: 5vw;
+	}
+
+
+/*card three*/
+	.card3{background-color: yellow;
+		position: fixed;
+		width: 40vw;
+		height: 30vw;
+		top: 5vw;
+		left: 50vw;
+		border:solid 10px black;
+		margin: 2vw;
+		font-size: 5vw;
+		text-align:center;
+		line-height:4vw;
+		position: fixed;
+		line-height:40px;
+	}
+	.warning{
+		font-size: 5vw;
+		background-color: black;
+		width: 40vw;
+		color:yellow;
+		top: 10vw;
+		z-index: -99;
+		text-align:center;
+		font-weight: bolder;
+
+	}
+	.middle{
+		font-size: 5vw;
+		color: black;
+		padding: 1vw;
+		margin: 0;
+		line-height:4vw;
+	}
+/*card four*/
+	.card4{background-color:blue;
+			width: 30vw;
+			height: 28vw;
+			position: fixed;
+			top: 40vw;
+			left: 60vw;
+			border:solid 10px black;
+			margin: 3vw;
+			color:white;
+			font-weight: bold;
+			padding: 1vw;
+			line-height:3vw;
+			word-spacing: .3vw;
+			letter-spacing: .3vw;
+			font-size: 2vw;
+	}
+	.card4inner{background-color: lightgrey;
+			width: 30vw;
+			height: 17vw;
+			position: fixed;
+			top: 47vw;
+			left: 60vw;
+			border:solid 10px black;
+			margin: 3vw;
+			color:black;
+			font-weight: bold;
+			padding: 1vw;
+			line-height:3vw;
+			word-spacing: .3vw;
+			letter-spacing: .3vw;
+			font-size: 2vw;
+	}
+	.cross{
+		background-color:red;
+			width: 2.5vw;
+			position: fixed;
+			height: 2.5vw;
+			top: 45vw;
+			left: 92vw;
+			border:solid 4px black;
+			border-radius: 50px;
+			margin: 0;
+			color:white;
+			font-weight: bold;
+			font-size: 2vw;
+			text-align: center;
+	}
+	.no{
+		background-color:darkgrey;
+			width: 5vw;
+			position: fixed;
+			height: 3vw;
+			top: 63vw;
+			left: 77vw;
+			border:solid 4px black;
+			margin: 0;
+			color:white;
+			font-weight: bold;
+			line-height: 3vw;
+			font-size: 2vw;
+			text-align: center;
+	}
+
+/*card five*/
+	.card5{background-color:lightgrey;
+			width: 40vw;
+			height: 30vw;
+			position: fixed;
+			top: 40vw;
+			left: 40vw;
+			border:solid 10px black;
+			margin: 3vw;
+			padding: 2vw;
+			text-align: center;
+			
+	}
+
+	.hello{
+		color: black;
+		background-color: orange;
+		padding: 0;
+		text-align: center;
+		font-size: 3vw;
+	}
+
+	.content5{
+		color: black;
+		text-align: center;
+		font-size: 2vw;
+	}
+
+	.remind5{
+		color: black;
+		font-size: 2vw;
+		background-color: white;
+		border: solid .3vw blue; 
+		border-radius: 20px;
+		padding: .5vw;
+		line-height: 8vw;
+
+
+
+	}
+
+/*card six*/
+	.card6{background-color:#535353;
+			width: 40vw;
+			height: 15vw;
+			position: fixed;
+			top: 60vw;
+			left: 0vw;
+			border:solid 10px black;
+			margin: 3vw;
+			text-align: center;
+			
+	}
+
+	.adobe{
+		color: lightgrey;
+		width: 40vw;
+		background-color: white;
+		padding: 0;
+		text-align: center;
+		font-size: 1.5vw;
+	}
+
+	.content6{
+		color: white;
+		text-align: center;
+		font-size: 2vw;
+		line-height: vw;
+	}
+
+	.save{
+		color: white;
+		font-size: 1.3vw;
+		border: solid .1vw white; 
+		border-radius: 20px;
+		padding: .5vw;
+		line-height: 3vw;
+	}
+
+
+
+/*card seven*/
+	.card7{background-color:white;
+			width: 40vw;
+			height: 23vw;
+			position: fixed;
+			top: 40vw;
+			left: 40vw;
+			border:solid 10px black;
+			margin: 3vw;
+			text-align: center;
+			padding: 1vw;
+	}
+
+	li{
+		color: grey;
+		font-size: 1.5vw;
+		line-height: 1.8vw;
+	}
+	.flash{
+		color: red;
+		font-size: 3vw;
+	}
+	.windows{
+		color: black;
+		width: 40vw;
+		background-color: white;
+		padding: 0;
+		text-align: center;
+		font-size: 2vw;
+	}
+
+
+	.decline{
+		color: black;
+		font-size: 1.3vw;
+		border: solid .1vw grey; 
+		border-radius: 10px;
+		padding: .5vw;
+		line-height: 8vw;
+	}
+
+/*card eight*/
+	.speech-bubble {
+	position: fixed;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	width: 40vw;
+	height: 15vw;
+	top: 5vw;
+	font-size: 2vw;
+	margin: 3vw;
+	padding: 10px;
+	text-align:center;
+	line-height:2.5vw;
+}
+
+	.triangle{
+	clip-path: polygon(0 0, 25% 100%, 100% 0);
+	position: fixed;
+	background-color: black;
+	color: black;
+	font-size: 20vw;
+	z-index: 
+	}
+
+/*card nine*/
+
+.box{background-color:white;
+	color: black;
+			width: 20vw;
+			height: 10vw;
+			position: fixed;
+			top: 40vw;
+			left: 40vw;
+			border:solid 10px black;
+			margin: 3vw;
+			text-align: center;
+
+}
+.box:hover{
+	background-color: blue;
+	color: white;
+	transition:all .1s ease-in-out;
+}
+.title1,
+.title2 {
+  transition: 0.2s;
+}
+
+.title1{
+font-size: 2vw;
+}
+.title2 {
+  position: absolute;
+  font-size: 2vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.box:hover .title1 {
+  opacity: 0;
+}
+.box:hover .title2 {
+  opacity: 1;
+}
+
+
+/*card ten*/
+
+.box10{background-color:white;
+	color: black;
+			width: 20vw;
+			height: 10vw;
+			position: fixed;
+			top: 40vw;
+			left: 40vw;
+			border:solid 10px black;
+			padding: 0;
+			text-align: center;
+
+}
+.box10:hover{
+	background-color: red;
+	color: white;
+	transition:all .1s ease-in-out;
+}
+.title3,
+.title4 {
+  transition: 0.2s;
+}
+
+.title3{
+font-size: 4vw;
+}
+.title4 {
+  position: absolute;
+  font-size: 4vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.box10:hover .title3 {
+  opacity: 0;
+}
+.box10:hover .title4 {
+  opacity: 1;
+}
+
+
+/*card 11*/
+.card11{background-color:blue;
+			width: 40vw;
+			height: 20vw;
+			position: fixed;
+			top: 20vw;
+			left: 80vw;
+			border:solid 10px black;
+			margin: 3vw;
+			padding: 2vw;
+			text-align: center;
+			
+	}
+
+	.content11{
+		color: white;
+		padding: 0;
+		text-align: center;
+		font-size: 2vw;
+	}
+
+
+	.restart{
+		color: black;
+		font-size: 2vw;
+		background-color: white;
+		border: solid .3vw blue; 
+		border-radius: 20px;
+		padding: .5vw;
+		line-height: 8vw;
+	}
+
+
+/*card 12*/
+	.card12{
+		background-color:white;
+
+			width: 80vw;
+			height: 60vw;
+			position: fixed;
+			top: auto;
+			bottom: auto;
+			left: auto;
+			right: auto;
+			border:solid 10px black;
+			padding: 0;
+			text-align: center;
+			font-size: 10vw;
+	}
+
+/*hover: z-index:100000*/
