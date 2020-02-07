@@ -1,0 +1,43 @@
+body{
+	padding: 0;
+	margin:0;
+}
+h1{
+	color:pink;
+	font-family: arial;
+	font-weight: bolder;
+	letter-spacing: 10px; /*space between letters*/
+}
+
+p{
+	color:lightblue;
+	margin-top: 1000px;
+	line-height: 40px;
+	word-spacing: 100px; /*between words*/
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: green;
+}
+/*a for links*/
+
+div{
+	color: orange;
+	width: 50%;/* vw: full range %: respond to the browserpx:tay the certain size*/
+	background-color: blue;
+	padding:50px; /*spaces between the border the content*/
+	border: dashed 50px black; /*dashed:虚线*/
+	margin:19px ; /*outside the border*/
+
+}
+
+.lightgreen{
+	background-color: lightgreen;
+	
+}
+
+#special{
+	font-size: 40px;
+}

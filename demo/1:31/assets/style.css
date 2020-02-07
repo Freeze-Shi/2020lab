@@ -1,0 +1,94 @@
+html{
+	font-size: 2vw;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	position: relative;
+	display: inline-block;
+	/*block 
+	inline-block=responsive to the spaces between the divs（relative!!!）*/
+	width: 33.33vw;
+	height: 50rem;
+    vertical-align: middle;/*上下居中*/
+    overflow: hidden;/*scrow*//*
+    overflow-x: ;*/
+
+}
+
+#menu{
+	position: fixed;
+width: 100vw;
+height:10vh;
+background-color: pink;
+z-index: 1000;
+}
+
+#box1{
+background-color: red;
+	height: 4rem;
+
+
+}
+
+#box2{
+background-color: green;
+}
+#box2 .absolute{
+	background-color: white;
+}
+
+#box3{
+background-color: blue;
+}
+
+.absolute {
+	width: 5rem;
+	height: 1rem;
+	background-color: black;
+	position: absolute;
+	top:50%;
+	left: 1rem;
+	transform: rotate(10deg);
+	transform: skew(70deg);
+
+}
+
+.mydiv{
+background-color:red;
+width: 80vw;
+height: 200px;
+color: white;
+font-size: 1rem;
+margin: 20px;
+padding: 10px;
+border:solid 2px black;
+
+}
+
+#firstsqure{
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	width: 80vw;
+	height: 10vh;
+	/*remaining the same size*/
+}
+body{
+}
+p{
+	width: 80vh; 
+	/*units
+	px
+	%(wight the div/body)
+	vw(view width)
+	vh(view height)
+	rem 1 rem=the fontsize of yourhtml
+	rem is responsive when you change the html*/
+	/*vh-response to the hight*/
+	/*vw-browser*/
+	color: black;
+	background-color: yellow;
+}

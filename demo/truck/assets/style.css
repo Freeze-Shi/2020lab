@@ -1,0 +1,149 @@
+img{
+	width: 40vw;
+	right: -5vw;
+	position: fixed;
+
+}
+body{
+	font-family: niveau-grotesk, sans-serif;
+	font-size: 17px;
+	text-align: center;
+	line-height: 18px;
+	background-color: grey;
+}
+.front{
+	position: fixed;
+	top:250px;
+	left: 50px;
+}
+
+#circle1{
+	width: 100px;
+      height: 60px;
+     top:130px;
+     left:80px;
+	background-color: #d2c8bc;
+	border:solid 10px lightgrey;
+      border-radius: 100px / 50px;
+      z-index: 1000;
+}
+#triangle1{ 
+      border-color: white;
+      width: 0;
+      height: 0;
+      border-left: 100px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 110px solid white;
+      border-radius: 20%;}
+#rec1{
+	width: 100px;
+	height: 70px;
+	background-color:white;
+	border:solid 5px white;
+	left: 150px;
+}
+
+#rec2{
+	width: 250px;
+	height: 150px;
+	background-color: white;
+	border:solid 10px lightgrey;
+	top:100px;
+
+}
+#rec2bottom{
+	width: 143px;
+	height: 30px;
+	background-color:white;
+	border:solid 5px white;
+	left: 57px;
+	top: 353px;
+}
+
+#rec4{
+	width: 50px;
+	height: 150px;
+	background-color: white;
+	top:110px;
+	left:200px;
+
+}
+#rec2middle{
+	width: 30px;
+	height:40px;
+	top: 330px;
+	left: 180px;
+	background-color: white}
+
+#rec3{
+		width: 350px;
+		height: 210px;
+		background-color: white;
+		border:solid 10px lightgrey;
+		top:100px;
+		left: 210px;
+}
+
+
+#rec5{
+	width: 200px;
+	height: 140px;
+	background-color: #f0a703;
+	top:110px;
+	left: 300px;
+}
+#content{
+	top: 243px;
+	left: 270px;
+	font-size: 15px;
+	word-spacing: 128px;
+}
+#content2{
+	top: 270px;
+	left: 370px;
+	font-size: 20px;
+	word-spacing: 128px;
+}
+#contentfront{
+	top: 350px;
+	left: 100px;
+	font-size: 20px;
+	color: black;
+	z-index: 1000000;
+
+}
+
+#black1{
+	width: 100px;
+	height: 60px;
+	background-color: black;
+	top:330px;
+	left: 210px;
+}
+
+#black2{
+	width: 230px;
+	height: 30px;
+	background-color: black;
+	top:330px;
+	left: 300px;
+}
+
+#wheelout{
+	top: 340px;
+	left: 320px;
+	width: 100px;
+      height: 100px;
+      background: black;
+      border-radius: 50%;
+}
+#wheelin{
+	top: 355px;
+	left: 335px;
+	width: 60px;
+      height: 60px;
+      background: lightgrey;
+      border: dashed 5px grey;
+      border-radius: 50%;
+      z-index: 1000;
+}
