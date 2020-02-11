@@ -1,0 +1,81 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+
+.mylink{
+	font-size: 2rem;
+	padding: 1rem;
+	transition:background-color 0.5s ease-out;
+}
+.mylink:visited{
+	color:red;
+}
+.mylink:hover{
+	background-color: green;
+}
+
+
+.mylink:focus{
+	background-color: black;
+}
+
+.mylink:active{
+	background-color: blue;
+}
+input{
+	color: white
+}
+
+.myparagraph{
+	font-size: 2rem;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*first element within the each div*/
+
+/*css read from the bottom
+the bottom ones overide the top ones*/
+/*even/odd*/
+.myparagraph:nth-of-type(odd){
+	border:solid .2rem blue;
+}
+
+.myparagraph:nth-of-type(even){
+	border:solid .2rem green;
+}
+
+/*3:the third one   3n:3 6 9*/
+.myparagraph:nth-of-type(3n){
+	background-color: lime;
+}
+
+
+.myparagraph:nth-of-type(4n){
+	background-color: lightblue;}
+
+.myparagraph:first-of-type{
+	border:dashed .1rem red;
+}
+
+
+.myparagraph:last-of-type{
+	background-color: pink;
+}
+
+
+.myparagraph:not(#special){
+	font-style: italic;
+	font-family: arial;
+
+}
+
+
+
+
+
+
+
+

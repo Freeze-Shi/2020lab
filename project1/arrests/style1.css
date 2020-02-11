@@ -5,6 +5,11 @@ body {
 
   
 }
+
+
+
+* { -webkit-user-select: none; }
+
 a{
 	text-decoration: none;
 }
@@ -12,34 +17,167 @@ a{
 #draggable:hover{
 	z-index: +1000000;
 }
+#draggable01:hover{
+	z-index: +1000000;
+}#draggable02:hover{
+	z-index: +1000000;
+}#draggable03:hover{
+	z-index: +1000000;
+}#draggable04:hover{
+	z-index: +1000000;
+}#draggable05:hover{
+	z-index: +1000000;
+}
+
 
 #draggable2:hover{
 	z-index: +1000000;
 }
+#draggable21:hover{
+	z-index: +1000000;
+}
+#draggable22:hover{
+	z-index: +1000000;
+}
+#draggable23:hover{
+	z-index: +1000000;
+}
+#draggable24:hover{
+	z-index: +1000000;
+}
+
 #draggable3:hover{
 	z-index: +1000000;
 }
+#draggable31:hover{
+	z-index: +1000000;
+}
+#draggable32:hover{
+	z-index: +1000000;
+}
+#draggable33:hover{
+	z-index: +1000000;
+}
+#draggable34:hover{
+	z-index: +1000000;
+}
+
 #draggable4:hover{
 	z-index: +1000000;
 }
+#draggable41:hover{
+	z-index: +1000000;
+}
+#draggable42:hover{
+	z-index: +1000000;
+}
+#draggable43:hover{
+	z-index: +1000000;
+}
+#draggable44:hover{
+	z-index: +1000000;
+}
+
 #draggable5:hover{
 	z-index: +1000000;
 }
+#draggable51:hover{
+	z-index: +1000000;
+}
+#draggable52:hover{
+	z-index: +1000000;
+}
+#draggable53:hover{
+	z-index: +1000000;
+}
+#draggable54:hover{
+	z-index: +1000000;
+}
+
 #draggable6:hover{
 	z-index: +1000000;
 }
+#draggable61:hover{
+	z-index: +1000000;
+}
+#draggable62:hover{
+	z-index: +1000000;
+}
+#draggable63:hover{
+	z-index: +1000000;
+}
+#draggable64:hover{
+	z-index: +1000000;
+}
+
 #draggable7:hover{
 	z-index: +1000000;
 }
+#draggable71:hover{
+	z-index: +1000000;
+}
+#draggable72:hover{
+	z-index: +1000000;
+}
+#draggable73:hover{
+	z-index: +1000000;
+}
+#draggable74:hover{
+	z-index: +1000000;
+}
+
 #draggable8:hover{
 	z-index: +1000000;
 }
+#draggable81:hover{
+	z-index: +1000000;
+}
+#draggable82:hover{
+	z-index: +1000000;
+}
+#draggable83:hover{
+	z-index: +1000000;
+}
+#draggable84:hover{
+	z-index: +1000000;
+}
+
 #draggable9:hover{
 	z-index: +1000000;
 }
+#draggable91:hover{
+	z-index: +1000000;
+}
+#draggable92:hover{
+	z-index: +1000000;
+}
+#draggable93:hover{
+	z-index: +1000000;
+}
+#draggable94:hover{
+	z-index: +1000000;
+}
+
 #draggable10:hover{
 	z-index: +1000000;
 }
+#draggable101:hover{
+	z-index: +1000000;
+}
+#draggable102:hover{
+	z-index: +1000000;
+}
+#draggable103:hover{
+	z-index: +1000000;
+}
+#draggable104:hover{
+	z-index: +1000000;
+}
+#draggablenone:hover{
+	z-index: +1000000;
+}
+
+
 .background{
 	font-size: 150px;
 	position:fixed;
@@ -50,6 +188,7 @@ a{
 /*card one*/
 	.card1{
 		background-color:white;
+		color: black;
 		width: 30vw;
 		height: 20vw;
 		top: 5vw;
@@ -113,6 +252,7 @@ a{
 			margin: 3vw;
 			padding: 2vw;
 			text-align: center;
+			transition:all .5s ease-in-out;
 			
 	}
 
@@ -150,6 +290,7 @@ a{
 		line-height:4vw;
 		position: fixed;
 		line-height:40px;
+		transition:all .5s ease-in-out;
 	}
 	.warning{
 		font-size: 5vw;
@@ -174,7 +315,7 @@ a{
 			width: 30vw;
 			height: 28vw;
 			position: fixed;
-			top: 40vw;
+			top: 30vw;
 			left: 60vw;
 			border:solid 10px black;
 			margin: 3vw;
@@ -185,12 +326,14 @@ a{
 			word-spacing: .3vw;
 			letter-spacing: .3vw;
 			font-size: 2vw;
+			transition:all .5s ease-in-out;
+
 	}
 	.card4inner{background-color: lightgrey;
 			width: 30vw;
 			height: 17vw;
 			position: fixed;
-			top: 47vw;
+			top: 37vw;
 			left: 60vw;
 			border:solid 10px black;
 			margin: 3vw;
@@ -207,7 +350,7 @@ a{
 			width: 2.5vw;
 			position: fixed;
 			height: 2.5vw;
-			top: 45vw;
+			top: 35vw;
 			left: 92vw;
 			border:solid 4px black;
 			border-radius: 50px;
@@ -222,7 +365,7 @@ a{
 			width: 5vw;
 			position: fixed;
 			height: 3vw;
-			top: 63vw;
+			top: 53vw;
 			left: 77vw;
 			border:solid 4px black;
 			margin: 0;
@@ -238,13 +381,13 @@ a{
 			width: 40vw;
 			height: 30vw;
 			position: fixed;
-			top: 40vw;
-			left: 40vw;
+			top: 20vw;
+			left: 30vw;
 			border:solid 10px black;
 			margin: 3vw;
 			padding: 2vw;
 			text-align: center;
-			
+			transition:all .5s ease-in-out;
 	}
 
 	.hello{
@@ -279,12 +422,12 @@ a{
 			width: 40vw;
 			height: 15vw;
 			position: fixed;
-			top: 60vw;
+			top: 30vw;
 			left: 0vw;
 			border:solid 10px black;
 			margin: 3vw;
 			text-align: center;
-			
+			transition:all .5s ease-in-out;
 	}
 
 	.adobe{
@@ -325,6 +468,7 @@ a{
 			margin: 3vw;
 			text-align: center;
 			padding: 1vw;
+			transition:all .5s ease-in-out;
 	}
 
 	li{
@@ -363,12 +507,14 @@ a{
 	border-radius: 20px;
 	width: 40vw;
 	height: 15vw;
-	top: 5vw;
+	top: 0vw;
 	font-size: 2vw;
 	margin: 3vw;
 	padding: 10px;
 	text-align:center;
 	line-height:2.5vw;
+	transition:all .5s ease-in-out;
+	z-index: -20;
 }
 
 	.triangle{
@@ -377,7 +523,7 @@ a{
 	background-color: black;
 	color: black;
 	font-size: 20vw;
-	z-index: 
+
 	}
 
 /*card nine*/
@@ -387,11 +533,12 @@ a{
 			width: 20vw;
 			height: 10vw;
 			position: fixed;
-			top: 40vw;
-			left: 40vw;
+			top: 25vw;
+			left: 35vw;
 			border:solid 10px black;
 			margin: 3vw;
 			text-align: center;
+
 
 }
 .box:hover{
@@ -479,6 +626,7 @@ font-size: 4vw;
 			margin: 3vw;
 			padding: 2vw;
 			text-align: center;
+			transition:all .5s ease-in-out;
 			
 	}
 
@@ -508,14 +656,90 @@ font-size: 4vw;
 			width: 80vw;
 			height: 60vw;
 			position: fixed;
-			top: auto;
-			bottom: auto;
-			left: auto;
-			right: auto;
+			top: 10vw;
+			left: 10vw;
 			border:solid 10px black;
 			padding: 0;
 			text-align: center;
 			font-size: 10vw;
+			transition:all .5s ease-in-out;
 	}
 
+
+
+/*popup*/
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100vw;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100vw;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100vw;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 55vw;
+    top: -20vw;
+    left: right;
+    min-height: 10vw;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border:solid 1vw black;
+    padding: 1.5vw 5%;
+    font-size: 3vw;
+    z-index: 
+}
+.popupCloseButton {
+    background-color: red;
+    border: 1vw solid black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -2vw;
+    right: -2vw;
+    font-size: 3vw;
+    line-height: 3vw;
+    width: 3vw;
+    height: 3vw;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: blue;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 3vw;
+    display: inline-block;
+    background-color: yellow;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50px;
+    border: 1vw solid black;
+
+    font-weight: bold;
+    z-index: 100000000000000;
+
+}
+
+/* Popup box BEGIN */
 /*hover: z-index:100000*/
+
+
+
+  

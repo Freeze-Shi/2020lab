@@ -1,0 +1,25 @@
+html, body{
+	font-size: 15px;
+}
+.parent{
+	display:flex;/*or inline-flex*/
+	flex-direction: raw; /*row/reverse row/revers color*/
+	flex-wrap: wrap;
+	justify-content: space-around;
+	 /*space-between/ center/flex end/ */
+	 align-items: stretch;/*align things in coloum*/
+	 /*see the resources*/
+
+}
+
+.child{
+	padding: 1rem;
+	margin: 1rem;
+	background-color: red;
+	color: white;
+
+}
+
+.child:nth-of-type(even){
+background-color: purple;
+}

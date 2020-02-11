@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		
+     window.onload = function () {
+		    var oDiv = document.getElementById('qmkf'); 
+		    var disX, moveX, L, T, starX, starY, starXEnd, starYEnd; 
+		    oDiv.addEventListener('touchstart', function (e) { 
+ 
+		        disX = e.touches[0].clientX - this.offsetLeft;
+		        disY = e.touches[0].clientY - this.offsetTop;
+		        starX = e.touches[0].clientX;
+		        starY = e.touches[0].clientY;
+		    });
+		    oDiv.addEventListener('touchmove', function (e) {
+                e.preventDefaul //禁止背景跟着滑动
+              
+		        L = e.touches[0].clientX - disX;
+		        T = e.touches[0].clientY - disY;
+		        starXEnd = e.touches[0].clientX - starX;
+		        starYEnd = e.touches[0].clientY - starY;
+		        //console.log(L);
+		        if (L < 0) {
+		            L = 0;
+		        } else if (L > document.documentElement.clientWidth - this.offsetWidth) {
+		            L = document.documentElement.clientWidth - this.offsetWidth;
+		        }
+		
+		        if (T < 0) {
+		            T = 0;
+		        } else if (T > document.documentElement.clientHeight - this.offsetHeight) {
+		            T = document.documentElement.clientHeight - this.offsetHeight;
+		        }
+		        moveX = L + 'px';
+		        moveY = T + 'px';
+		        //console.log(moveX);
+		        this.style.left = moveX;
+		        this.style.top = moveY;
+		    });
+
+————————————————
+版权声明：本文为CSDN博主「句点_a」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_41851047/article/details/99749432
+	</script>
+
+	<style type="text/css">
+		
+		#qmkf {
+         border-radius: 50%; 
+         position: fixed;
+         z-index: 99;
+         width: 39px;
+         bottom: 25%; 
+        left: 26px; 
+        background-color: red;
+      }
+————————————————
+版权声明：本文为CSDN博主「句点_a」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_41851047/article/details/99749432
+	</style>
+	<title></title>
+</head>
+<body>
+
+<div id="qmkf" >
+       <div> 拖动</div>
+ </div>
+
+</body>
+</html>
