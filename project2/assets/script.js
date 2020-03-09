@@ -14,6 +14,37 @@ function weekDay(dayIndex, dayElement){
 
 }
 
+/*var secondBlack = true;
+var thirdBlack = true;
+
+
+function timeUnit(output,ourHtmlElement){
+if(output === 20){
+	var toggle = "";
+
+	if(ourHtmlElement.getAttribute("id") === "ccsecond"){
+		toggle = secondBlack;
+		secondBlack = !secondBlack;
+	}
+
+	if(ourHtmlElement.getAttribute("id") === "ccthird"){
+		toggle = thirdBlack;
+		thirdBlack = !thirdBlack;
+	}
+
+	if(toggle){
+		ourHtmlElement.style.backgroundColor = "black";
+		ourHtmlElement.style.color = "white";
+	} else{
+		ourHtmlElement.style.backgroundColor = "white";
+		ourHtmlElement.style.color = "black";
+	}
+
+	ourHtmlElement.innerHTML === "00"
+
+}
+}*/
+
 var months    = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
 var now       = new Date();
 var thisMonth = months[now.getMonth()];
@@ -61,13 +92,14 @@ setInterval(Clock, 1000)
 function timeUnit(output, ourHtmlElement){	
 	if(output < 10){
 		ourHtmlElement.innerHTML = "0" + output;
-	}else{
+	} else if(output === 20){
+		ourHtmlElement.innerHTML = "00";
+	} else{
 		ourHtmlElement.innerHTML = output;	
 	}	
+
+
 }
-
-
-
 
 var first = 0;
 var second = 0;
@@ -90,9 +122,6 @@ var fifthVar = document.getElementById("fifthVar")
 function myRepeater(){
 	timeUnit(first, firstVar);
 	first = first + 1;
-
-
-
 
 
 	if(first === 20){
