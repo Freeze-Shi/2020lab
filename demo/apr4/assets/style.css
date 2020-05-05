@@ -1,0 +1,97 @@
+body{
+	background-image: url(background.jpg);
+	background-size: 100%
+}
+.mainbox{
+	float: center;
+	padding: 1.2vw;
+	background-color: white;
+	left:38vw;
+	font-family: "Neue-Regular";
+	position: absolute;
+	left: right;
+	width: 21vw;
+	height: 510px;
+	padding-top: 0vw;
+	border-radius: 3px;
+	-webkit-box-shadow: -1px 15px 33px 0px rgba(0,0,0,0.49);
+	-moz-box-shadow: -1px 15px 33px 0px rgba(0,0,0,0.49);
+	box-shadow: -1px 15px 33px 0px rgba(0,0,0,0.49);
+}
+
+h1{
+	padding: 0;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-family:"NeueDisplay-Random";
+	transform:scale(1.1,1);
+	width: 21.5%;
+	font-size: 2vw;
+	text-align: center;
+	font-style: light;
+	position: relative;
+	left:38.5vw;
+	border-bottom: black double 1vw;
+}
+h2{
+	font-size: 35px;
+	line-height: 0px;
+}
+h3{
+	color: #e6312b;
+	font-size:23px;
+
+}
+
+.netid{
+	font-size: 12px;
+	color: lightgray;
+	margin-bottom: 0vw;
+line-height: 1.5vw;
+}
+
+.continue{
+	color: #e6312b;
+	text-align: center;
+	font-size: 15px;
+
+
+}
+
+#username{
+	border:none;
+	background-color: #e8f0fe;
+	width: 20.5vw;
+	height: 2.2vw;
+}
+
+
+.reset{
+
+	font-size: 14.5px;
+	line-height: 10px;
+
+}
+
+
+
+.terms{
+
+	font-size: 14.5px;
+	text-align: right;
+	color: #999999;
+
+}
+
+img{
+	width: 15px;
+	margin-right: 4px;
+
+}
+#icon2{
+	width: 17px;
+}
+
+
+
+

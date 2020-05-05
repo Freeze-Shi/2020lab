@@ -1,0 +1,763 @@
+body{
+	background-image: url(backgroundimg.jpg);
+	background-size: 64%;
+
+}
+
+/*cover*/
+	#icon1
+		{z-index: +99999999999999999999999999999999999999999999999999999;
+		position: fixed;
+		top: 5vw;
+		width: 5vw;
+		left:87.2vw;
+	}
+	#instruction
+		{z-index: +90000009999999999999999999999999999999999999999999999999999;
+		position: fixed;
+		top: 7vw;
+		width: 70vw;
+		left:13vw;
+		display: none;
+	}
+
+	#icon1:hover{
+		width:10vw;
+	}
+		#first
+		{z-index: +99999999999999999999999999999999999999999999999999;
+			position: fixed;
+		width: 100vw;
+		height: 100vh;
+		left: 0;
+		margin-left: 0;
+		animation: coverframe 0.1s ease 100;
+		-webkit-animation-delay: 2s;
+		}
+
+		@-webkit-keyframes coverframe{
+	  0%{
+	    opacity: 100%
+	  }
+	  100%{
+	    opacity: 0%);
+	  }}
+	#start
+		{z-index: +9999999999999999999999999999999999999;
+		position: fixed;
+		top: 55vh;
+		width: 5vw;
+		left:49.2vw;
+	}
+
+	#start:hover{
+		width: 6vw;
+		left: 48.5vw;
+		top:52vh;
+	}
+
+	#mouth
+		{z-index: +99999999999999999999999999;
+		position: fixed;
+		top: 55vh;
+		width: 5vw;
+		height: 14vh;
+		left:49.2vw;
+	}
+
+	#mouth:hover{
+		top: 63vh;
+	}
+
+
+/*head*/
+	.dollhead{
+		max-width: 14vw;
+		max-height: auto;
+		width: auto;
+		height: auto;
+		position:absolute;
+		top: 15vh;
+		left:58vw;
+		z-index: +9999;
+		
+		display: none;
+		animation: headframe 15s ease 100;
+		-webkit-animation-delay: 2s;
+	}
+
+	@-webkit-keyframes headframe{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(30deg);
+  }
+  50%{
+     transform: rotate(00deg);
+  }
+  75%{
+     transform: rotate(-30deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+
+
+/*adjust positions- heads*/
+	#head3{
+		max-width: 11vw;
+		left:60vw;
+		top: 16vh;
+	}
+
+	#head5{
+		max-width: 13vw;
+		left:59vw;
+		top:11vh;
+	}
+	#head7{
+		max-width: 12vw;
+		left:59vw;
+		top:19vh;
+	}
+	#head9{
+		max-width: 11.5vw;
+		left:59.5vw;
+		top:17vh;
+	}
+	#head11{
+		max-width: 9vw;
+		left:60.5vw;
+		top:16vh;
+	}
+	#head13{
+		max-width: 10vw;
+		left:60.5vw;
+		top:15.5vh;
+	}
+	#head15{
+		max-width: 11vw;
+		left:59.5vw;
+		top:15.5vh;
+	}
+	#head17{
+		max-width:9vw;
+		left:60.5vw;
+		top:18vh;
+	}
+	#head19{
+		max-width: 11vw;
+		left:59.5vw;
+		top:20vh;
+	}
+	#head21{
+		max-width: 10vw;
+		left:60.5vw;
+		top:13.5vh;
+	}
+	#head23{
+		max-width: 9vw;
+		left:60.5vw;
+		top:15.5vh;
+	}
+	#head25{
+		max-width: 8.5vw;
+		left:60.5vw;
+		top:17.5vh;
+	}
+	#head27{
+		max-width: 8vw;
+		left:61vw;
+		top:19vh;
+	}
+	#head29{
+		max-width: 8vw;
+		left:61vw;
+		top:19.5vh;
+	}
+	#head2{
+		max-width: 8vw;
+		left:61.6vw;
+		top:19vh;
+	}
+	#head4{
+		max-width: 11vw;
+		left:59vw;
+		top:19.5vh;
+	}
+	#head6{
+		max-width: 8vw;
+		left:61.5vw;
+		top:21.5vh;
+	}
+	#head8{
+		max-width: 11vw;
+		left:60vw;
+		top:19vh;
+	}
+	#head10{
+		max-width: 7.5vw;
+		left:61.5vw;
+		top:19vh;
+	}
+	#head12{
+		max-width: 11.6vw;
+		left:59.5vw;
+		top:21vh;
+	}
+	#head14{
+		max-width: 8.5vw;
+		left:61vw;
+		top:20vh;
+	}
+	#head16{
+		max-width: 9.5vw;
+		left:60.5vw;
+		top:19.5vh;
+	}
+	#head18{
+		max-width: 10.5vw;
+		left:60vw;
+		top:19vh;
+	}
+	#head20{
+		max-width: 12vw;
+		left:59vw;
+		top:17vh;
+	}
+	#head22{
+		max-width: 9.5vw;
+		left:60.5vw;
+		top:18.5vh;
+	}
+	#head24{
+		max-width: 11vw;
+		left:60vw;
+		top:17.5vh;
+	}
+	#head26{
+		max-width: 8.5vw;
+		left:60.5vw;
+		top:19vh;
+	}
+	#head26:hover{
+		animation: prevframe 2s ease 100;
+	}
+
+	@-webkit-keyframes prevframe{
+    0%{
+    transform: rotate(0deg);
+    }
+    100%{
+     transform: rotate(360deg);
+    }
+    }
+	#head28{
+		max-width: 10vw;
+		left:60.5vw;
+		top:19.5vh;
+	}
+
+
+	#prev{
+		
+		width: 4vw;
+		position: fixed;
+		z-index: +999999;
+		left: 7.5vw;
+		top:35.5vh;
+	}
+	#prev:hover{
+		left: 7vw;
+		width: 4.5vw;
+		animation: prevframe 2s ease 100;
+	}
+
+	@-webkit-keyframes prevframe{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+     transform: rotate(360deg);
+  }
+	}
+	#next{
+		
+		width: 4vw;
+		position: fixed;
+		left: 17vw;
+		top: 35.5vh;
+		z-index: +999999;
+	}
+	#next:hover{
+		width: 4.5vw;
+	animation: prevframe 2s ease 100;
+	}
+
+	@-webkit-keyframes prevframe{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+     transform: rotate(360deg);
+  }
+}
+/*leftleg = lleg*/
+	.dolllleg{
+		width:10vw;
+		position:absolute;
+		
+		top: 46vh;
+		left:55vw;
+		z-index: 99;
+		display: none;
+		animation: legframe 8s ease 100;
+		-webkit-animation-delay: 1s;
+	}
+
+	@-webkit-keyframes legframe{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(5deg);
+  }
+  50%{
+     transform: rotate(00deg);
+  }
+  75%{
+     transform: rotate(5deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+
+	#llegprev{
+		z-index: +999999;
+		width: 4vw;
+		position: fixed;
+		left: 10vw;
+		top:15vh;
+		left: 8vw;
+		top:81vh;
+	}
+
+	#llegprev:hover{
+		width: 4.5vw;
+		left: 7.5vw;
+	animation: llegleft 5s ease 100;
+	z-index: +999999;
+	}
+
+	@-webkit-keyframes llegleft{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(-20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+	#llegnext{
+		
+		width: 4vw;
+		position: fixed;
+		left: 10vw;
+		top:15vh;
+		z-index: +999999;
+		left: 16vw;
+		top:81vh;
+	}
+	#llegnext:hover{
+		width: 4.5vw;
+	animation: llegright 5s ease 100;
+	}
+
+	@-webkit-keyframes llegright{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(-20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+/*rightleg = rleg*/
+	.dollrleg{
+		width:10vw;
+		position:absolute;
+		
+		top: 46vh;
+		left:65vw;
+		z-index: 99;
+		display: none;
+	animation: rlegframe 8s ease 100;
+		-webkit-animation-delay: 1s;
+	}
+
+	@-webkit-keyframes rlegframe{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(-2deg);
+  }
+  50%{
+     transform: rotate(00deg);
+  }
+  75%{
+     transform: rotate(-2deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+
+	#rlegprev{
+		
+		width: 4vw;
+		position: fixed;
+		left: 22.5vw;
+		top:81vh;
+		z-index: +999999;
+
+	}
+	#rlegprev:hover{
+		width: 4.5vw;
+		left: 22vw;
+	animation: llegleft 5s ease 100;
+	}
+
+	@-webkit-keyframes llegleft{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(-20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+	#rlegnext{
+		left: 31.5vw;
+		top:81vh;
+		width: 4vw;
+		position: fixed;
+		z-index: +999999;
+	}
+	#rlegnext:hover{
+		width: 4.5vw;
+	animation: llegright 5s ease 100;
+	}
+
+	@-webkit-keyframes llegright{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(-20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+/*lefthand = lhand*/
+	.dolllhand{
+		width:8vw;
+		position:absolute;
+		
+		top: 36vh;
+		left:55vw;
+		z-index: 99;
+		display: none;
+		animation: myframe 8s ease 100;
+		-webkit-animation-delay: 6s;
+	}
+
+	@-webkit-keyframes myframe{
+  0%{
+    transform: rotate(0deg);
+  }
+  
+  50%{
+     transform: rotate(50deg);
+  }
+  
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+
+	#lhandprev{
+		z-index: +999999;
+		width: 5vw;
+		position: fixed;
+		left: 7.3vw;
+		top:61vh;
+	}
+
+	#lhandprev:hover{
+		left: 6.8vw;
+		width: 5.5vw;
+	animation: llegleft 5s ease 100;
+	}
+
+	@-webkit-keyframes llegleft{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(-20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+	#lhandnext{
+		z-index: +999999;
+		width:5vw;
+		position: fixed;
+		left: 16vw;
+		top:61vh;
+	}
+
+	#lhandnext:hover{
+		width: 5.5vw;
+	animation: llegright 5s ease 100;
+	}
+
+	@-webkit-keyframes llegright{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(-20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+/*righthand = rhand*/
+	.dollrhand{
+		width:8vw;
+		position:absolute;
+		
+		top: 36vh;
+		left:67vw;
+		z-index: 99;
+		display: none;
+		animation: myframe 8s ease 100;
+		-webkit-animation-delay: 4s;
+	}
+
+	@-webkit-keyframes myframe{
+  0%{
+    transform: rotate(0deg);
+  }
+  
+  50%{
+     transform: rotate(-10deg);
+  }
+  
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+	#rhandprev:hover{
+		left: 21.5vw;
+		width: 5.5vw;
+	animation: llegleft 5s ease 100;
+	}
+
+	@-webkit-keyframes llegleft{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(-20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+
+	#rhandprev{
+		z-index: +999999;
+		width: 5vw;
+		position: fixed;
+		left: 22vw;
+		top:61vh;
+	}
+	#rhandnext:hover{
+		width: 5.5vw;
+	animation: llegright 5s ease 100;
+	}
+
+	@-webkit-keyframes llegright{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+     transform: rotate(-20deg);
+  }
+  50%{
+     transform: rotate(0deg);
+  }
+  75%{
+     transform: rotate(20deg);
+  }
+  100%{
+     transform: rotate(0deg);
+  }
+}
+	#rhandnext{
+		z-index: +999999;
+		width: 5vw;
+		position: fixed;
+		left: 31.2vw;
+		top:61vh;
+		
+
+	}
+
+/*dollbody = body*/
+	.dollbody{
+		width:8vw;
+		position:absolute;
+		top: 34vh;
+		left:61vw;
+		z-index: 99;
+		display: none;
+	}
+
+
+	#bodyprev{
+		z-index: +999999;
+		width: 2.5vw;
+		position: fixed;
+		left: 23vw;
+		top:33vh;
+	}
+	#bodyprev:hover{
+		width: 3.5vw;
+		left: 22.5vw;
+		top:32vh;
+	}
+
+
+	#bodynext{
+		z-index: +999999;
+		width: 2.5vw;
+		position: fixed;
+		left: 33vw;
+		top:33vh;
+	}	
+	#bodynext:hover{
+		width:3.5vw;
+		left: 32.5vw;
+		top:32vh;
+	}
+
+/*background and everthing*/
+	.bgframe{
+		left: 0;
+		top: 0;
+		width: 100vw;
+		height: 100vh;
+		position:fixed ;
+		padding:0;
+		margin: 0;
+		
+	}
+	.drawer{
+		top:7vh;
+		left: 5vw;
+		position: absolute;
+		width: 33vw;
+		height: auto;
+		z-index: -9999;
+		
+	}
+
+	.head1{
+		width: 20vw;
+		position: absolute;
+		left:55vw;
+		bottom: 30vh;
+	}
+
+	.background{
+		left: 0;
+		top: 0;
+		position:absolute ;
+		z-index: -1000001;
+	}
+
+
+	.stage{
+		width: 20vw;
+		position: absolute;
+		left:55vw;
+		bottom: 9vh;
+		z-index: +1;
+	}

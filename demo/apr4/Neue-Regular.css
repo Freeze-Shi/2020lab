@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"Neue-Regular";
+    src:url("Neue-Regular.woff2") format("woff2"),url("Neue-Regular.woff") format("woff"),url("Neue-Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
