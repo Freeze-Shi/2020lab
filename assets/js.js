@@ -16,7 +16,7 @@ $("#close").on("click",function(){
     $("#secondtext").css("display","none")
 	$("#thirdtext").css("display","none")
 	$("#fourthtext").css("display","none")
-	$("#fifhttext").css("display","none")
+	$("#fifthtext").css("display","none")
 	$("#sixthtext").css("display","none")
   });
 
