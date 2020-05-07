@@ -1,3 +1,102 @@
+.newwindow{
+	position: fixed;
+	left: 20vw;
+	top: 15vh;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.imgtext{
+	text-align: center;
+	color: black;
+	background-color: white;
+	padding: 0;
+	font-size: 2vw;
+	bottom: 0;
+	position: fixed;
+	font-style: bold;
+	height: 2vw;
+	z-index: +19999999999;
+	top: 79vh;
+	left: 40vw;
+	display: none;
+}
+
+#firsttext{
+	left: 42vw;
+}
+#secondtext{
+	left: 34vw;
+}
+#thirdtext{
+	left: 37vw;
+}
+#fourthtext{
+	left: 45vw;
+}
+#fifthtext{
+	left: 47vw;
+}
+
+.imgtext:hover{
+	text-decoration: underline;
+	font-style: italic;
+	color: blue;
+}
+
+.interfaceimg{
+	width:50vw;
+	border: solid black 0.5vw;
+	padding: 0;
+	height: auto;
+	top: 15vw;
+	left: 25vw;
+	position: fixed;
+	display: none;
+}
+
+#interface{
+	z-index: +1000;
+	color:white;
+	background-color: white;
+	border: solid black 0.5vw;
+	width:60vw;
+	height: 70vh;
+	position: fixed;
+	padding: 0;
+}
+
+#topborder{
+	z-index: +10990;
+	width:60vw;
+	height: 5vh;
+	position: absolute;
+	background-color: white;
+	border-bottom: solid black 0.5vw;
+
+}
+#close{
+	z-index: +109900;
+	text-align: center;
+	font-size: 2vw;
+	padding: 0;
+	right: 0;
+	position: absolute;
+	align-items: right;
+	width:5vh;
+	height: 5vh;
+	color: red;
+	background-color: white;
+	border-bottom: solid black 0.5vw;
+	border-left: solid black 0.5vw;
+}
+
+#close:hover{
+	background-color: red;
+	color: white;
+}
+
 .milk{
 	color:white;
 	border-color: blue;
@@ -7,6 +106,7 @@
 	position: fixed;
 	line-height: 30vw;
 	right: -3vw;
+	top: -1vw;
 	transition: all .5s ease-in-out;
 }
 
@@ -24,6 +124,16 @@ padding: .4vw;
 }
 
 
+
+.borderneeded
+{margin: 1vw;
+	border: solid 2px black;
+text-align: center;
+transition: all 0.3s ease-in-out;}
+
+.borderneeded:hover{
+background-color: #1924f2;
+}
 
 #borderneeded
 {margin: 1vw;
